@@ -3,7 +3,7 @@ Summary(pl):	Konwerter listingów C/C++ na LaTeX
 Name:		C++2LaTeX
 %define		ver	1_1pl1
 Version:	1.1pl1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Publishing/TeX
 Source0:	ftp://ftp.tex.ac.uk/tex-archive/support/%{name}-%{ver}.tar.gz
