@@ -7,6 +7,7 @@ Release:	2
 License:	GPL
 Group:		Applications/Publishing/TeX
 Source0:	ftp://ftp.tex.ac.uk/tex-archive/support/%{name}-%{ver}.tar.gz
+# Source0-md5:	439cf4f33983848f5d6761c6f605f631
 BuildRequires:	flex
 Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
