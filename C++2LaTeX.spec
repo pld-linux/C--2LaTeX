@@ -36,13 +36,11 @@ install c++2latex.1	$RPM_BUILD_ROOT%{_mandir}/man1
 ln -sf c++2latex	$RPM_BUILD_ROOT%{_bindir}/c2latex
 echo '.so c++2latex.1' >$RPM_BUILD_ROOT%{_mandir}/man1/c2latex.1
 
-gzip -9nf ChangeLog README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc ChangeLog README
 %attr(755,root,root) %{_bindir}/*
-%doc *.gz
 %{_mandir}/man1/*
