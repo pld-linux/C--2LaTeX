@@ -18,7 +18,7 @@ the 'documentstyle' header and so on).
 
 %description -l pl
 C++2LaTeX przyjmuje na wej¶cie kod ¼ród³owy w C lub C++, a na wyj¶cie
-wysy³a plik w LaTeX-u z ³adnym listingiem.
+wysy³a plik w LaTeXu z ³adnym listingiem.
 
 %prep
 %setup -q -n %{name}-%{ver}
