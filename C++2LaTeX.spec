@@ -25,7 +25,8 @@ wysy³a plik w LaTeXu z ³adnym listingiem.
 
 %build
 rm -f *.o c++2latex
-%{__make} CFLAGS="%{rpmcflags} -DUSE_NAME"
+%{__make} \
+	CFLAGS="%{rpmcflags} -DUSE_NAME"
 
 %install
 rm -rf $RPM_BUILD_ROOT
