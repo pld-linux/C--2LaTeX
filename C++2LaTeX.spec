@@ -7,8 +7,8 @@ Release:	2
 License:	GPL
 Group:		Applications/Publishing/TeX
 Source0:	ftp://ftp.tex.ac.uk/tex-archive/support/%{name}-%{ver}.tar.gz
-Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildRequires:	flex
+Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 C++2LaTeX takes as input a C or C++ source file and outputs a LaTeX
