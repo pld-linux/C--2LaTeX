@@ -1,5 +1,5 @@
 Summary:	Pretty-printer for converting C/C++ code to a LaTeX listing
-Summary(pl):	Konwerter listingów C/C++ na LaTeX
+Summary(pl.UTF-8):   Konwerter listingÃ³w C/C++ na LaTeX
 Name:		C++2LaTeX
 %define		ver	1_1pl1
 Version:	1.1pl1
@@ -16,9 +16,9 @@ C++2LaTeX takes as input a C or C++ source file and outputs a LaTeX
 file that is a beautified listing (optionally the output can contain
 the 'documentstyle' header and so on).
 
-%description -l pl
-C++2LaTeX przyjmuje na wej¶cie kod ¼ród³owy w C lub C++, a na wyj¶cie
-wysy³a plik w LaTeXu z ³adnym listingiem.
+%description -l pl.UTF-8
+C++2LaTeX przyjmuje na wejÅ›cie kod ÅºrÃ³dÅ‚owy w C lub C++, a na wyjÅ›cie
+wysyÅ‚a plik w LaTeXu z Å‚adnym listingiem.
 
 %prep
 %setup -q -n %{name}-%{ver}
